@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@arago/eslint-config-arago",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Centralised ESLint configuration for most arago JS projects.",
   "main": "index.js",
   "author": "Chris Walker <cwalker@arago.de>",
@@ -14,6 +14,6 @@
     "eslint-plugin-react": "5.x"
   },
   "scripts": {
-     "postinstall": "node _install_eslint_config.js"
+    "postinstall": "node _install_eslint_config.js"
   }
 }
