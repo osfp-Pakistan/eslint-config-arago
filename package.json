@@ -9,5 +9,8 @@
     "babel-eslint": "6.x",
     "eslint": "2.x",
     "eslint-plugin-react": "5.x"
+  },
+  "scripts": {
+     "postinstall": "node _install_eslint_config.js"
   }
 }

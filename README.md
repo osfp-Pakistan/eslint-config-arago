@@ -5,7 +5,15 @@ As compiled by the Exeter Office. There are 2 configs.
 - One for general JS, the default `@arago/eslint-config-arago`
 - One for React projects with JSX, `@arago/eslint-config-arago/react`
 
-add to `package.json` under `devDependencies` and `eslint`
+## Installation
+
+`npm install --save-dev arago/eslint-config-arago`
+
+then follow the prompts.
+
+## Manual installation
+
+Add to `package.json` under `devDependencies` and `eslint`
 
 ```
     ...
@@ -15,7 +23,7 @@ add to `package.json` under `devDependencies` and `eslint`
         "eslint": "x.y.z"
     },
     ...
-    "eslint": {
-        "extends": "@arago/eslint-config-arago(/react)"
+    "eslintConfig": {
+        "extends": "@arago/eslint-config-arago(|/react)"
     }
 ```
