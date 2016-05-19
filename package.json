@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@arago/eslint-config-arago",
   "version": "1.0.0",
   "description": "Centralised ESLint configuration for most arago JS projects.",
@@ -7,7 +8,9 @@
   "license": "UNLICENSED",
   "peerDependencies": {
     "babel-eslint": "6.x",
-    "eslint": "2.x",
+    "eslint": "2.x"
+  },
+  "optionalDependencies": {
     "eslint-plugin-react": "5.x"
   },
   "scripts": {
