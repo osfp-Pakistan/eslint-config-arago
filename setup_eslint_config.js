@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  *  Try to intelligently add the eslint config to your package.json
  */

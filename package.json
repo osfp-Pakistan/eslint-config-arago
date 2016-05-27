@@ -13,7 +13,7 @@
   "optionalDependencies": {
     "eslint-plugin-react": "5.x"
   },
-  "scripts": {
-    "postinstall": "node _install_eslint_config.js"
+  "bin": {
+    "setup-eslint-config": "./setup_eslint_config.js"
   }
 }
