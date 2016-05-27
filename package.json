@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@arago/eslint-config-arago",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Centralised ESLint configuration for most arago JS projects.",
   "main": "index.js",
   "author": "Chris Walker <cwalker@arago.de>",
