@@ -74,7 +74,7 @@ module.exports = {
         "guard-for-in": "error",
         "no-alert": "warn",
         "no-caller": "error",
-        "no-case-declarations": "error",
+        "no-case-declarations": "off",
         "no-div-regex": "error",
         "no-else-return": "off",
         "no-empty-function": "off",
