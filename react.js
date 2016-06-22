@@ -5,7 +5,7 @@ module.exports = {
         }
     },
     //extend th default one
-    extends: [ "./index" ],
+    extends: [ "./index.js" ],
     plugins: [
         "react"
     ],
