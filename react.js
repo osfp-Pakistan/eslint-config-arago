@@ -4,7 +4,7 @@ module.exports = {
             jsx: true
         }
     },
-    //extend th default one
+    //extend the default one
     extends: [ "./index.js" ],
     plugins: [
         "react"
@@ -17,6 +17,6 @@ module.exports = {
         "react/jsx-key": "error",
         "react/jsx-uses-vars": "error",
         "react/jsx-uses-react": "error",
-        "react/prop-types": "error"
+        "react/prop-types": "warn"
     }
 };

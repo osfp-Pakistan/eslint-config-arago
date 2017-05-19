@@ -5,6 +5,8 @@ As compiled by the Exeter Office. There are 2 configs.
 - One for general JS, the default `@arago/eslint-config-arago`
 - One for React projects with JSX, `@arago/eslint-config-arago/react`
 
+It is also expected that files are formatted to the rules set out by https://github.com/prettier/prettier
+
 ## Installation
 
 `npm install --save-dev arago/eslint-config-arago`
