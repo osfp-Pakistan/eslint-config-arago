@@ -1,17 +1,18 @@
 {
   "private": true,
   "name": "@arago/eslint-config-arago",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Centralised ESLint configuration for most arago JS projects.",
   "main": "index.js",
   "author": "Chris Walker <cwalker@arago.de>",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "babel-eslint": "6.x",
-    "eslint": "2.x"
+    "babel-eslint": "7.x",
+    "eslint": "3.x",
+    "prettier": "1.x"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "5.x"
+    "eslint-plugin-react": "7.x"
   },
   "bin": {
     "setup-eslint-config": "./setup_eslint_config.js"

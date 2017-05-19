@@ -14,20 +14,20 @@ module.exports = {
         // always strict.
         ecmaFeatures: {
             impliedStrict: true
-        }
+        },
+        allowImportExportEverywhere: true
     },
     //We write for maximum isomorphism node and browser.
     env: {
-      node: true,
-      browser: true,
-      es6: true
+        node: true,
+        browser: true,
+        es6: true
     },
     // rules, I list as many as possible to be explicit
     "rules": {
         /**
          * Possible errors
          */
-        "comma-dangle": "error",
         "no-cond-assign": "error",
         "no-console": "off",
         "no-constant-condition": "error",
@@ -41,7 +41,6 @@ module.exports = {
         "no-ex-assign": "error",
         "no-extra-boolean-cast": "error",
         "no-extra-parens": "off",
-        "no-extra-semi": "error",
         "no-func-assign": "error",
         "no-inner-declarations": "error",
         "no-invalid-regexp": "error",
@@ -67,8 +66,6 @@ module.exports = {
         "consistent-return": "off",
         "curly": "error",
         "default-case": "error",
-        //always put the dot with the property, not the object if multiline
-        "dot-location": ["error", "property"],
         "dot-notation": "error",
         "eqeqeq": "error",
         "guard-for-in": "error",
@@ -95,7 +92,6 @@ module.exports = {
         "no-lone-blocks": "error",
         "no-loop-func": "error",
         "no-magic-numbers": "off",
-        "no-multi-spaces": "error",
         "no-multi-str": "error",
         "no-native-reassign": "error",
         "no-new": "error",
@@ -124,7 +120,6 @@ module.exports = {
         "no-with": "error",
         "radix": "error",
         "vars-on-top": "warn",
-        "wrap-iife": "error",
         "yoda": "off",
 
         /**
@@ -168,25 +163,13 @@ module.exports = {
         /**
          *  Stylistic Issues
          */
-        "array-bracket-spacing": ["error", "never"],
-        "block-spacing": ["error", "always"],
-        //1 true brace style
-        "brace-style": ["error", "1tbs"],
         "camelcase": ["error", { properties: "never" }],
-        "comma-spacing": ["error", { before: false, after: true }],
-        "comma-style": "error",
-        "computed-property-spacing": "error",
         "consistent-this": "off",
-        "eol-last": "error",
         "func-names": "off",
         "func-style": "off",
         "id-blacklist": "off",
         "id-length": "off",
         "id-match": "off",
-        "indent": ["error", 4, { SwitchCase: 1 }],
-        "jsx-quotes": "error",
-        "key-spacing": "error",
-        "keyword-spacing": "error",
         "linebreak-style": ["error", "unix"],
         "lines-around-comment": "off",
         "max-depth": "off",
@@ -196,7 +179,6 @@ module.exports = {
         "max-statements": "off",
         "max-statements-per-line": "off",
         "new-cap": "off",
-        "new-parens": "error",
         "newline-after-var": "off",
         "newline-before-return": "off",
         "newline-per-chained-call": "off",
@@ -205,37 +187,22 @@ module.exports = {
         "no-continue": "off",
         "no-inline-comments": "off",
         "no-lonely-if": "error",
-        "no-mixed-spaces-and-tabs": "error",
-        "no-multiple-empty-lines": "error",
         "no-negated-condition": "off",
         "no-nested-ternary": "error",
         "no-new-object": "error",
         "no-plusplus": "off",
         "no-restricted-syntax": "off",
-        "no-spaced-func": "error",
         "no-ternary": "off",
-        "no-trailing-spaces": "error",
         "no-underscore-dangle": "off",
         "no-unneeded-ternary": "off",
-        "no-whitespace-before-property": "error",
-        "object-curly-spacing": ["error", "always"],
         "object-property-newline": "off",
         "one-var": ["error", { uninitialized: "always", initialized: "never" }],
         "one-var-declaration-per-line": "off",
         "operator-assignment": "off",
         "operator-linebreak": "off",
-        "padded-blocks": ["error", "never"],
         "quote-props": "off",
-        "quotes": ["error", "double", { "allowTemplateLiterals": true }],
         "require-jsdoc": "off",
-        "semi": ["error", "always"],
-        "semi-spacing": "error",
         "sort-vars": "off",
-        "space-before-blocks": "error",
-        "space-before-function-paren": ["error", "never"],
-        "space-in-parens": "error",
-        "space-infix-ops": "error",
-        "space-unary-ops": "error",
         "spaced-comment": "off",
         "wrap-regex": "off",
 
@@ -244,7 +211,6 @@ module.exports = {
          */
         "arrow-body-style": "off",
         "arrow-parens": "off",
-        "arrow-spacing": "error",
         "constructor-super": "error",
         "generator-star-spacing": "off",
         "no-class-assign": "error",
@@ -266,8 +232,6 @@ module.exports = {
         "prefer-spread": "error",
         "prefer-template": "off",
         "require-yield": "off",
-        "sort-imports": "off",
-        "template-curly-spacing": "error",
-        "yield-star-spacing": "error"
+        "sort-imports": "off"
     }
 };
