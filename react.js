@@ -17,6 +17,7 @@ module.exports = {
         "react/jsx-key": "error",
         "react/jsx-uses-vars": "error",
         "react/jsx-uses-react": "error",
+        "react/jsx-no-undef": "error",
         "react/prop-types": "warn"
     }
 };
